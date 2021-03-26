@@ -1,0 +1,146 @@
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    color: #222;
+}
+
+
+
+ .clearfix {
+     display: block;
+     clear: both;
+ }
+
+ 
+ body {
+    margin: 0px;
+ }
+
+
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.question {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 145px ;
+}
+
+.question-text {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    font-family: Montserrat;
+    text-align: center;
+    color: #303030;
+}
+
+
+.indicator-image {
+    position: absolute;
+    height: 97.01px;
+    left: 155px;
+    top: 103.15px;
+    width: 99.91px;
+    z-index: -2;
+}
+
+.answer {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 150px;
+}
+
+.answer li {
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: #7FF56B;
+    font-weight: 600;
+    transition: 1000;
+}
+
+
+
+.answer li:hover {
+    color: #F272BF;
+}
+
+
+
+.result {
+    position: absolute;
+    height: 73px;
+    left: 257px;
+    top: 560px;
+    width: 1134px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: center;
+    color: #000000;
+}
+
+.result-title {
+    position: absolute;
+    height: 176px;
+    left: 1000px;
+    top: 259px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 144px;
+    line-height: 176px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    width: 782px;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+
+}
+
+.mark {
+    position: absolute;
+    height: 268px;
+    left: 1805.88px;
+    top: 200px;
+    width: 64.15px;
+}
+
+.line9 {
+    position: absolute;
+    top: 53px;
+}
+
+.line10 {
+    position: absolute;
+    top: 724px;
+}
+
+.star78 {
+    position: absolute;
+    height: 175.75px;
+    left: 190px;
+    top: 500px;
+    width: 181.37px;
+    z-index: -2;
+}
+
+.none {
+    display: none;
+}
+
+.active {
+    display: inherit;
+}
